@@ -22,12 +22,14 @@ import { ViewBookPageComponent } from './containers/view-book-page';
 import { SelectedBookPageComponent } from './containers/selected-book-page';
 import { CollectionPageComponent } from './containers/collection-page';
 import { NotFoundPageComponent } from './containers/not-found-page';
+import { LeadControlComponent } from './lead-control/lead-control.component';
 
 import { GoogleBooksService } from './services/google-books';
 
 import { routes } from './routes';
 import { reducer } from './reducers';
 import { schema } from './db';
+
 
 
 
@@ -88,7 +90,8 @@ import { schema } from './db';
     SelectedBookPageComponent,
     ViewBookPageComponent,
     CollectionPageComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    LeadControlComponent
   ],
   providers: [
     BookExistsGuard,
